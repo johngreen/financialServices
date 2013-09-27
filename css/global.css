@@ -1,0 +1,293 @@
+
+.topBar {
+    background-image: url("../img/menu_line.jpg");
+   
+    display: block;
+    height: 28px;
+    position: relative;
+    width: 100%;
+   /* z-index: 900; */
+}
+
+.topBar span{
+
+	display:block;
+	line-height:28px;
+	padding-left:10px;
+	color:#000000;
+	font-weight:bold;
+
+}
+
+.viewBar{
+	height:34px;
+	background-color:#dfdfdf;
+}
+
+.viewBar .viewText{
+	line-height:34px;
+	display:block;
+	padding-left:10px;
+	color:#000000;
+	font-weight:bold;
+	float:left;
+}
+
+.viewBar select{
+	margin-top:7px;
+	margin-left:10px;
+}
+
+
+.viewBar .btnAdd{
+	position:relative;
+	float:right;
+	margin-right:10px;
+	margin-top:5px;
+}
+
+.headingsBar{
+	height:34px;
+	border-bottom:1px solid #000;
+}
+
+.headingsBar span{
+	display:block;
+	float:left;
+    line-height:34px;
+}
+
+.headingsBar .openClose{
+	padding-left:10px;
+}
+
+.headingsBar .ticker{
+	padding-left:10px;
+}
+
+.headingsBar .name{
+	padding-left:50px;
+}
+
+.headingsBar .shares{
+	padding-left:280px;
+}
+
+.headingsBar .sharePrice{
+	padding-left:50px;
+}
+
+.headingsBar .marketValue{
+	padding-left:50px;
+}
+
+.operationsBar{
+	height:70px;
+	background-color:#c3e2e3;
+	border-top:2px solid #d3eeee;
+	border-bottom: 1px solid #000;
+}
+.operationsBar div{
+	float:left;
+}
+
+.operationHeadings{
+	width:100%;
+}
+
+.operationHeadings span{
+	display:block;
+}
+
+.operationHeadings div{
+	margin-right:10px;
+}
+
+.operationHeadings .op_date{
+	margin-left:20px;
+	width:80px;
+}
+
+.operationHeadings .op_date input{
+	margin-left:10px;
+	width:80px;
+}
+.operationHeadings .op_transaction{
+	width:150px;
+	margin-left:10px;
+}
+
+.operationHeadings .op_transaction input{
+	width:150px;
+}
+.operationHeadings .op_name{
+	width:150px;
+}
+
+.operationHeadings .op_name input{
+	width:150px;
+}
+.operationHeadings .op_shares{
+	width:150px;
+	margin-right:3px;
+}
+.operationHeadings .op_shares{
+	width:150px;
+}
+.operationHeadings .op_sharePrice{
+	width:80px;
+}
+.operationHeadings .op_sharePrice input{
+	width:80px;
+}
+.operationHeadings .op_amount{
+	width:150px;
+}
+.operationHeadings .op_amount input{
+	width:150px;
+}
+.operationHeadings .op_commission{
+	float:left;
+	margin-top:20px;
+	position:relative;
+}
+.operationHeadings .op_save input{
+	margin-top:20px;
+}
+
+.operationHeadings .op_save {
+float:right;
+	margin-right:30px;
+}
+.operationHeadings .op_close{
+	float:right;
+}
+.operationHeadings .op_date{
+	float:left;
+}
+.operationHeadings .op_transaction{
+	float:left;
+}
+.operationHeadings .op_name{
+	float:left;
+}
+.op_shares input{
+	width:143px;
+}
+.operationHeadings .op_shares span{
+	float:right;
+}
+.operationHeadings .op_sharePrice span{
+	float:right;
+}
+.operationHeadings .op_amount span{
+	float:right;
+}
+.operationHeadings .op_close span{
+
+}
+
+.trans_wrapper div{
+	float:left;
+	line-height:30px;
+}
+
+.trans_wrapper{
+	height:30px;
+	background-color:#EBFAED;
+	border-bottom:1px solid #bbb;
+}
+
+.trans_wrapper .trans_date{
+	margin-left:30px;
+	width:85px;
+}
+
+.trans_wrapper .trans_name{
+	width:320px;
+}
+
+.trans_wrapper .trans_amount{
+	width:320px;
+}
+
+.trans_wrapper .trans_shares{
+	width:90px;
+}
+
+.trans_wrapper .trans_shareprice{
+	width:132px;
+}
+
+.rubble{
+	position:relative;
+}
+
+.add_trans{
+	padding:3px;
+	height:96px;
+	width:120px;
+	border:1px solid black;
+	position:absolute;	
+	background-color:#fff;
+	top:23px;
+	left:-91px;
+}
+
+.add_trans div{
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #bbb;
+	padding-left:2px;
+	padding-right:2px;
+	clear:both;
+	width:116px;
+}
+
+.set_commission{
+	padding:3px;
+	height:78px;
+	width:120px;
+	border:1px solid black;
+	position:absolute;	
+	top:23px;
+	left:13px;
+	background-color:#c3e2e3;
+}
+
+.set_commission div{
+	height:30px;
+	line-height:30px;
+	padding-left:2px;
+	padding-right:2px;
+	clear:both;
+	width:116px;
+	margin-left:5px;	
+}
+
+.commissionDollars{
+	width:105px;
+	margin-left:5px;
+}
+
+.commission_dollars{
+	border-bottom:none;
+	margin-left:5px;
+}
+
+
+.operationInputs{
+	height:1px;
+}
+
+.op_transaction .period, .op_transaction .bond_trans, .op_transaction .cash_trans, .transTypeSelect, .currentSelector{
+	width:155px;
+}
+
+
+
+
+
+
+
+
